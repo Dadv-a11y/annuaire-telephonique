@@ -1,0 +1,60 @@
+@media screen and (max-width:1024px){
+    body{
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;  
+    }
+    .annuaire table{
+        border-collapse: collapse;
+        width: 195%;
+    }
+    .menu img{
+        margin-left: 5rem;
+    }
+    aside{
+        width: 98%;
+        height: 10rem ;
+    }
+    header{
+        height: 4%;
+    }
+    header .logger_image{
+        display: none;
+    }
+    .update{
+        width: 15rem;
+        position: absolute;
+        top: 30%;
+        right: 0;
+        left: 20%;
+    }
+    .update .fermer {
+        margin-top: 10px;
+        position: relative;
+        top: 0;
+        left: 40%;
+    }
+    .ajouter_contact {
+        width: 15rem;
+        position: absolute;
+        top: 30%;
+        right: 0;
+        left: 20%;
+    }
+    .ajouter_contact .fermer {
+        margin-top: 3px;
+        position: relative;
+        top: 0;
+        left: 49%;
+    }
+    .detail{
+        position: absolute;
+        top: 8%;
+        left: 10%;
+        right: 0;
+        width: 70%;
+        height: 40%;
+    }
+}

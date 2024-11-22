@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("image/téléchargement.jpeg")
+}
+div{
+    padding: 3%;
+    width: 25%;
+    border: black;
+   
+}
+form{
+    border: black solid;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+ form div{
+    padding: 2%;
+}
+form button{
+    width: 22%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

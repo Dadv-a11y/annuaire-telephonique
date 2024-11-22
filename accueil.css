@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: white;
+    height: 5vh;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+    border: wheat solid;
+}
+footer{
+    height: 4vh;
+}
+
+/* css header */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 25px;
+}
+.logger_image{
+    border-radius: 50px;
+}
+.menu{
+    height: 25px;
+    border: white;
+    background-color: white;
+}
+.menu img{
+    margin-left: 32vh;
+}
+/* css main */
+/* css annuaire */
+.annuaire table{
+    border-collapse: collapse;
+    width: 100vh;
+}
+.annuaire table tr th{
+     border: black solid;
+    
+}
+ .annuaire table tr td{
+    border: black solid;
+    padding: 1%;
+}
+table tr td button{
+    margin-left: 15%;
+}
+.annuaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.annuaire div{
+    width: 50%;
+    padding: 5px;
+}
+aside{
+    width: 40vh;
+    height: 100% ;
+    border: black solid;
+    background-color: white;
+    display: none ;
+}
+
+/* ajouter_contact */
+.ajouter_contact {
+    border: black solid;
+    width: 25rem;
+    position: absolute;
+    top: 32%;
+    right: 0;
+    left: 37%;
+     display: none; 
+    z-index: 3;
+}
+
+ form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ form div{
+    padding: 2%;
+}
+form button{
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+.ajouter_contact .fermer {
+    margin-top: 3px;
+    position: relative;
+    top: 0;
+    left: 52%;
+    background-color: wheat;
+    border: wheat;
+    border-radius: 50px;
+    width: 25px;
+    
+}
+.ajouter button{
+    background-color: wheat;
+    border: wheat solid;
+}
+/* update */
+.update{
+    border: black solid;
+    border-radius: 5%;
+    width: 25rem;
+    position: absolute;
+    top: 32%;
+    right: 0;
+    left: 37%;
+     display: none; 
+    z-index: 2;
+    text-align: center;
+
+}
+ .update .fermer {
+    margin-top: 10px;
+    position: relative;
+    top: 0;
+    left: 46%;
+    background-color: wheat;
+    border: wheat;
+    border-radius: 50px;
+    
+}
+/* flou */
+.flou{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    border: olivedrab solid;
+     display: none; 
+    height: 99vh;
+    z-index: 1;
+}
+/* detail */
+.detail{
+    border: black solid;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    right: 0;
+    background-color: white;
+    margin-top: 5%;
+    padding: 10px;
+    width: 40vh;
+    height: 50vh;
+     display: none ; 
+}
+.detail tr th img{
+    width: 100px;
+}
+.detail button {
+    margin-left: 88%;
+    background-color: white;
+    border: white;
+}
+.delete , .mis_a_jour , .plus {
+    background-color: wheat;
+    border: wheat;
+}
